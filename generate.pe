@@ -1,0 +1,7 @@
+#!/usr/bin/fontforge
+
+Open($1)
+Reencode("unicode")
+MergeFonts($2)
+ScaleToEm(640)
+Generate($3, "", 0x800)
