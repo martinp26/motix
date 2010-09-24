@@ -1,0 +1,55 @@
+This is a free vector font family designed for small display sizes (or
+a lot of characters on large displays)
+
+What is contained
+=================
+
+The monospace variant comes in four flavors:
+* normal
+* italic
+* bold
+* bold-italic
+
+There is also a small proportial version for saving even more
+horizontal space (e.g., for the emacs mode line or play lists in
+audacious).
+
+Characters
+==========
+
+The monospace version cover:
+* ASCII
+* Latin1
+* Greek
+* Mathematical symbols
+* Different arrows
+* Block graphics
+* Various useful symbols
+
+Design
+======
+
+The font family was originally designed for a pixel grid of size 5x10.
+It has since been traced to a vector representation which allows easy
+scaling to larger sizes.  Also antialiasing and sub-pixel can
+dramatically improve the display quality.
+
+The font family was also designed with readability in mind, especially
+for distinguishing "o", "O", and "0" etc. which is important for
+programming.
+
+Usage
+=====
+
+Copy the generated TTF files to a directory searched by your font
+engines (e.g., ~/.fonts).
+
+Start, for example, an xterm like this:
+
+  xterm -fa motix_round:pixelsize=10
+
+
+Author
+======
+
+Copyright  2004--2010  Martin Pohlack
